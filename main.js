@@ -25,11 +25,11 @@ if(authenticated) {
 const a = 1;
 const b = '1';
 
-a === b // false - recognizes they are not the same (one is a number and one is a string)
-a == b // true - recognizes they are both numbers but doesn't understand one is a string
+// a === b // false - recognizes they are not the same (one is a number and one is a string)
+// a == b // true - recognizes they are both numbers but doesn't understand one is a string
 
-a !== b // true
-a != b // false 
+// a !== b // true
+// a != b // false 
 
 const favoriteColor = 'blue';
 const favoriteAnimal = 'bear';
